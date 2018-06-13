@@ -1,0 +1,2 @@
+add_lunch_combo lineage_haida-userdebug
+add_lunch_combo lineage_haida-eng

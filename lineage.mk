@@ -29,5 +29,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_NAME := lineage_haida
 PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
 
-# Custom tag for unofficial builds
-TARGET_UNOFFICIAL_BUILD_ID := LegacyXperia

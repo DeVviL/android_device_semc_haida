@@ -17,6 +17,10 @@ $(call inherit-product, vendor/semc/haida/haida-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/semc/haida/overlay
 
+# Boot logo
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bootlogo/initlogo.rle:root/initlogo.rle
+
 $(call inherit-product, device/semc/mogami-common/mogami.mk)
 
 # These are the hardware-specific features

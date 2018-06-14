@@ -30,3 +30,7 @@ TARGET_OTA_ASSERT_DEVICE := MT11i,MT11a,haida
 
 # CM Hardware tunables
 BOARD_HARDWARE_CLASS += device/semc/haida/cmhw
+
+# Fstab for TWRP
+TARGET_RECOVERY_FSTAB := device/semc/haida/rootdir/twrp.fstab
+

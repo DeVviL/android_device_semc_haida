@@ -37,8 +37,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh
 
 # TWRP
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Device specific configs
 PRODUCT_COPY_FILES += \
